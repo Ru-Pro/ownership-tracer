@@ -1,0 +1,22 @@
+# Built archives (published as release files, not committed)
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Collected data: disclosures, register extracts, reports
+e-disclosure/
+agencies/
+egrul/
+bo/
+moex/
+sanctions/
+*.pdf
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
